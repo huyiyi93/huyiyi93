@@ -3,7 +3,7 @@ package cn.appsys.pojo;
 import java.util.Date;
 
 //APP基础信息表
-public class app_info {
+public class appInfo {
 private int id;
 private String softwareName;
 private String APKName;

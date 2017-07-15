@@ -3,7 +3,7 @@ package cn.appsys.pojo;
 import java.util.Date;
 
 //Êý¾Ý×Öµä±í
-public class data_dictionary {
+public class dataDictionary {
 private int id;
 private String typeCode;
 private String typeName;

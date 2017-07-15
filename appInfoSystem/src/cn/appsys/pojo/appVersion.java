@@ -3,7 +3,7 @@ package cn.appsys.pojo;
 import java.util.Date;
 
 //APP版本信息表
-public class app_version {
+public class appVersion {
 private int id;
 private int appId;
 private String versionNo;

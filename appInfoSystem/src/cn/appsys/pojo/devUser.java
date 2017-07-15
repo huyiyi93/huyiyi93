@@ -2,12 +2,13 @@ package cn.appsys.pojo;
 
 import java.util.Date;
 
-//分类表
-public class app_category {
+//开发者用户表
+public class devUser {
 private int id;
-private String categoryCode;
-private String categoryName;
-private int parentId;
+private String devCode;
+private String devName;
+private String devPassword;
+private String devEmail;
 private int createBy;
 private Date creationDate;
 private int modifyBy;
@@ -18,23 +19,29 @@ public int getId() {
 public void setId(int id) {
 	this.id = id;
 }
-public String getCategoryCode() {
-	return categoryCode;
+public String getDevCode() {
+	return devCode;
 }
-public void setCategoryCode(String categoryCode) {
-	this.categoryCode = categoryCode;
+public void setDevCode(String devCode) {
+	this.devCode = devCode;
 }
-public String getCategoryName() {
-	return categoryName;
+public String getDevName() {
+	return devName;
 }
-public void setCategoryName(String categoryName) {
-	this.categoryName = categoryName;
+public void setDevName(String devName) {
+	this.devName = devName;
 }
-public int getParentId() {
-	return parentId;
+public String getDevPassword() {
+	return devPassword;
 }
-public void setParentId(int parentId) {
-	this.parentId = parentId;
+public void setDevPassword(String devPassword) {
+	this.devPassword = devPassword;
+}
+public String getDevEmail() {
+	return devEmail;
+}
+public void setDevEmail(String devEmail) {
+	this.devEmail = devEmail;
 }
 public int getCreateBy() {
 	return createBy;
